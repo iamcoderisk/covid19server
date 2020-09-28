@@ -6,7 +6,7 @@
 var express = require('express');
 const mongoose = require('mongoose');
 var router = express.Router();
-var  Symptom  =  require("../relevant-models/Symptom");
+var  Symptom  =  require("../relevant-models/symptom");
 
 router.get('/list',(req,res,next)=>{
     Symptom.find({},(err,data)=>{
