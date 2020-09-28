@@ -4,7 +4,8 @@
   "description": "a simple project for yokesolution",
   "main": "app",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start":"nodemon app.js"
   },
   "author": "prince darlington (iamcoderisk)",
   "license": "MIT",
